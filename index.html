@@ -3,13 +3,15 @@
     <head>
         <title>The Space Station | Resort</title>
         <meta charset="utf-8">
+        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="">
     </head>
     <body>
 
         <!--NAV-->
-        <div>
-            <div>
-                <ul>
+        <div class="wrap">
+            <div class="menu-container">
+                <ul class="menu">
                     <a href="#home" id="link"><li>HOME</li></a>
                     <a href="#gallery"><li>GALLERY</li></a>
                     <a href="#contact"><li>RESERVATIONS</li></a>
@@ -20,8 +22,8 @@
 
         <!--HOME-->
         <div id="home">
-            <div>
-                <div>
+            <div class="container">
+                <div class="text-center">
                     <span>The Space Station</span>
                 </div>
             </div>
@@ -29,16 +31,16 @@
         <!--END HOME-->
 
         <!--GALLERY-->
-        <section>
-            <div id="gallery">
+        <section id="galler">
+            <div class="container">
                 <h1>Gallery</h1>
-                <div>
+                <div class="flex-container">
 
                     <!--PHOTO-CONTAINER1-->
-                    <div>
-                        <div>
+                    <div class="photo-container">
+                        <div class="photo">
                             <img src="images/thumb/thumbnail_1.jpg" alt="stars in space">
-                            <div>
+                            <div class="photo-overlay">
                                 <h3>Click to Enlarge</h3>
                                 <p>We have several space launches departing daily, book your flight to the space station resort</p>
                             </div>
@@ -47,10 +49,10 @@
                     <!--END PHOTO-CONTAINER1-->
 
                     <!--PHOTO-CONTAINER2-->
-                    <div>
-                        <div>
+                    <div class="photo-container">
+                        <div class="photo">
                             <img src="images/thumb/thumbnail_2.jpg" alt="lookout in space">
-                            <div>
+                            <div class="photo-overlay">
                                 <h3>Click to Enlarge</h3>
                                 <p>We have several space launches departing daily, book your flight to the space station resort</p>
                             </div>
@@ -59,10 +61,10 @@
                     <!--END PHOTO-CONTAINER2-->
 
                     <!--PHOTO-CONTAINER3-->
-                    <div>
-                        <div>
+                    <div class="photo-container">
+                        <div class="photo">
                             <img src="images/thumb/thumbnail_3.jpg" alt="space station resort">
-                            <div>
+                            <div class="photo-overlay">
                                 <h3>Click to Enlarge</h3>
                                 <p>We have several space launches departing daily, book your flight to the space station resort</p>
                             </div>
@@ -71,10 +73,10 @@
                     <!--END PHOTO-CONTAINER3-->
 
                     <!--PHOTO-CONTAINER4-->
-                    <div>
-                        <div>
+                    <div class="photo-container">
+                        <div class="photo">
                             <img src="images/thumb/thumbnail_4.jpg" alt="space station cafeteria">
-                            <div>
+                            <div class="photo-overlay">
                                 <h3>Click to Enlarge</h3>
                                 <p>We have several space launches departing daily, book your flight to the space station resort</p>
                             </div>
@@ -83,10 +85,10 @@
                     <!--END PHOTO-CONTAINER4-->
 
                     <!--PHOTO-CONTAINER5-->
-                    <div>
-                        <div>
+                    <div class="photo-container">
+                        <div class="photo">
                             <img src="images/thumb/thumbnail_5.jpg" alt="space station master bedroom">
-                            <div>
+                            <div class="photo-overlay">
                                 <h3>Click to Enlarge</h3>
                                 <p>We have several space launches departing daily, book your flight to the space station resort</p>
                             </div>
@@ -95,10 +97,10 @@
                     <!--END PHOTO-CONTAINER5-->
 
                     <!--PHOTO-CONTAINER6-->
-                    <div>
-                        <div>
+                    <div class="photo-container">
+                        <div class="photo">
                             <img src="images/thumb/thumbnail_6.jpg" alt="space station room overlooking earth">
-                            <div>
+                            <div class="photo-overlay">
                                 <h3>Click to Enlarge</h3>
                                 <p>We have several space launches departing daily, book your flight to the space station resort</p>
                             </div>
@@ -107,10 +109,10 @@
                     <!--END PHOTO-CONTAINER6-->
 
                     <!--PHOTO-CONTAINER7-->
-                    <div>
-                        <div>
+                    <div class="photo-container">
+                        <div class="photo">
                             <img src="images/thumb/thumbnail_7.jpg" alt="earth from space">
-                            <div>
+                            <div class="photo-overlay">
                                 <h3>Click to Enlarge</h3>
                                 <p>We have several space launches departing daily, book your flight to the space station resort</p>
                             </div>
@@ -119,10 +121,10 @@
                     <!--END PHOTO-CONTAINER7-->
 
                     <!--PHOTO-CONTAINER8-->
-                    <div>
-                        <div>
+                    <div class="photo-container">
+                        <div class="photo">
                             <img src="images/thumb/thumbnail_8.jpg" alt="comet from space station">
-                            <div>
+                            <div class="photo-overlay">
                                 <h3>Click to Enlarge</h3>
                                 <p>We have several space launches departing daily, book your flight to the space station resort</p>
                             </div>
@@ -131,10 +133,10 @@
                     <!--END PHOTO-CONTAINER8-->
 
                     <!--PHOTO-CONTAINER9-->
-                    <div>
-                        <div>
+                    <div class="photo-container">
+                        <div class="photo">
                             <img src="images/thumb/thumbnail_9.jpg" alt="sun coming from behind earth">
-                            <div>
+                            <div class="photo-overlay">
                                 <h3>Click to Enlarge</h3>
                                 <p>We have several space launches departing daily, book your flight to the space station resort</p>
                             </div>
@@ -147,18 +149,19 @@
         <!--END GALLERY-->
 
         <!--RSVP-->
-        <section>
-            <div id="contact">
-                <div>
-                    <h1>Reservations</h1>
-                    <div>
-                        <h2><span>Your Adventure is just around the moon.</span>
+        <section id="contact">
+            <div class="container">
+                <div class="heading-padding">
+                    <h1 class="heading-padding">Reservations</h1>
+                    <div class="reservation">
+                        <h2>
+                            <span>Your Adventure is just around the moon.</span>
                             <br />Reserve your flight today!
                         </h2>
-                        <p>
+                        <p class="rsvp-text">
                             Please provide us with your basic contact information.
                         </p>
-                        <div>
+                        <div class="form-rsvp">
                             <form action="" method="post">
                                 <input class="rsvp" type="text" value="First Name">
                                 <input class="rsvp" type="text" value="Last Name">
@@ -167,7 +170,7 @@
                                 <div class="form-spacer">
                                     <label class="terms">Terms and Conditions</label>
                                 </div>
-                                <div>
+                                <div class="submit">
                                     <input type="submit" value="Submit">
                                 </div>
                             </form>
@@ -179,7 +182,7 @@
         <!--END RSVP-->
 
         <!--FOOTER-->
-        <div>
+        <div id="footer">
             www.thespacestation.space &nbsp;| &nbsp; &copy; 2016
         </div>
         <!--END FOOTER-->
